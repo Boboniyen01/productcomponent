@@ -1,0 +1,121 @@
+body{
+    background-color:  hsl(30, 38%, 92%);
+    margin: 0px;
+    padding: 0px;
+    
+}
+.image{
+width:18.9rem;
+ height:28.1rem;
+ margin: 0px;
+ padding: 0px;
+}
+.image img{
+    width:100%;
+    height:28.1rem;
+    object-fit: cover;
+    margin:0rem;
+ padding:0rem;
+
+}
+.layout{
+    width:18.8rem;
+    height:28.1rem;
+    margin: 0rem;
+    padding: 0rem 1rem;
+}
+main{width:37.5rem;
+    display:grid;
+    place-content: center;
+    grid-template-columns:1fr 1fr;
+    gap: 0px 0px;
+     margin:6.0rem auto 0.9rem auto;
+    background-color:white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+@media(max-width:1200px){
+    main{
+        display: block;
+        width:18.9rem;
+        font-size: 1.5rem;border-radius:8px ;
+    }
+    .layout{
+        padding: 0rem 0.5rem;
+    }
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    font-size: 1.25rem;
+    margin-right:1.88rem;
+    font-family: 'Montserrat';
+}
+ul li{
+    margin: 0.9rem 0.9rem 0.63rem 0.63rem;
+}
+.small{
+    text-decoration-line: line-through;
+}
+
+#link a{
+    background-color:  hsl(158, 36%, 37%);
+    display:block;
+    width:12.5rem;
+    margin: 0.13rem auto 0.5rem auto;
+    text-align: center;
+    padding:1.25rem;
+    color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Montserrat' ;
+}
+
+
+#link a:hover{
+    background-color:  hsl(212, 21%, 14%);
+}
+
+h2,p{
+    margin:1.3rem 0rem 0.94rem 0rem;
+}
+h1,p{
+    color: grey;
+    font-size: 1.19rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 1.88rem;
+    font-weight: bold;
+    font-family:'fraunces';
+}
+h1{
+    text-transform: uppercase;
+}
+.big{
+    font-family: fraunces;
+    font-size:2.19rem;
+    font-weight: bold;
+    color:hsl(158, 36%, 37%) ;
+}
+
+.cart{
+    position: relative;
+    top:2.69rem;
+    left:5.31rem;
+}
+@media(max-width:1200px){
+    .cart{
+        position: relative;
+        top: 3.2rem;
+        left: 3.8rem;
+    }
+}
+
+
+   
